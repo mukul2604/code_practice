@@ -2,6 +2,7 @@
 
 
 def doesExist(arr, l ,r, sum):
+	print "Recursion L:{} R:{}".format(l,r)
 	if l > r and sum != 0:
 		return False
 	if sum == 0:
